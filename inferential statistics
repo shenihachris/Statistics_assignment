@@ -1,0 +1,76 @@
+Section 2: Inferential Statistics
+---------------------------------------------------------------------------------
+     
+12. Why Inferential Statistics? 
+● Explain the difference between Correlation and Causation with an example.
+
+correlation :
+                Correlation means that two variables move together (when one changes, the other tends to change too), but it does not prove that one causes the other.
+                      For example :  the height and weight of a person are related, and taller people tend to be heavier than shorter people
+Causation : 
+Causation means that one variable directly affects another.
+For example : 
+     Smoking & Lung Cancer
+                     Decades of research have shown that smoking causes lung cancer.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13. Population vs. Sample: 
+● Why do we need sampling? Provide a real-world example.
+
+
+sampling : 
+        Sampling allows researchers to efficiently study large populations by analyzing a smaller, representative subset, saving time, resources, and effort while still drawing meaningful conclusions about the whole.
+For example : 
+          Quality Control in Manufacturing:
+Instead of testing every product, manufacturers test a sample to ensure product quality and identify potential defects.
+
+   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14. Hypothesis Testing Concepts: 
+● Define Null Hypothesis, Alternate Hypothesis, Significance Level (α), and P-value.
+
+
+In hypothesis testing, the Null Hypothesis (H0) assumes no effect or difference, the Alternate Hypothesis (H1) proposes an effect or difference, the Significance Level (α) is the probability of rejecting the null hypothesis when it's true, and the P-value is the probability of obtaining results as extreme as, or more extreme than, the observed results, assuming the null hypothesis is true. 
+
+ *Hypothesis (H0) :
+                  This is the statement of "no effect" or "no difference" that you are trying to                              disprove. 
+                   It's the default assumption until evidence suggests otherwise. 
+Examples:
+There is no difference in the average height between men and women.
+Alternative Hypothesis :
+                    This is the statement that you believe to be true if the null hypothesis is false. 
+         It's the opposite of the null hypothesis. 
+         Examples:
+"There is a difference in the average height between men and women." 
+"The new drug has an effect on reducing blood pressure." 
+Significance Level (α):
+                 This is the probability of rejecting the null hypothesis when it is actually true (a Type I                                   error). 
+                 Common values for α are 0.05 (5%) or 0.01 (1%). 
+               A significance level of 0.05 means there's a 5% chance of incorrectly concluding that there's a  significant effect when there isn't one. 
+P-value:
+                 This is the probability of obtaining results as extreme as, or more extreme than, the observed results, assuming the null hypothesis is true. 
+                  If the p-value is less than or equal to the significance level (p ≤ α), the null hypothesis is        rejected in favor of the alternative hypothesis. 
+For example :
+              if the p-value is 0.03 and the significance level is 0.05, the null hypothesis would be rejected
+              -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+20. Summary and Insights: 
+● Summarize the key takeaways from the analysis performed above and describe 
+how descriptive and inferential statistics can be used in real-world data analysis.
+
+
+One-Sample T-Test:
+The sample mean (50.28) is not significantly different from 50 (p = 0.23).
+
+ We fail to reject H0H_0H0.
+Independent Sample T-Test:
+The two groups have significantly different means (p = 0.001).
+We reject H0H_0H0, meaning the groups performed differently.
+Critical T-Value Analysis:
+The computed t-value (5.03) is greater than the critical t-value (2.306), confirming a significant difference.
+Descriptive vs. Inferential Statistics Real-World Application
+Descriptive statistics (mean, standard deviation) help summarize data.
+Inferential statistics (hypothesis testing) allow us to make predictions and decisions based on sample data.
+Example :
+Healthcare: Testing whether a new drug improves patient outcomes.
+Education: Comparing student performance before and after a new teaching method.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
